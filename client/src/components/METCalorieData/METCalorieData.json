@@ -1,0 +1,367 @@
+{
+  "walking": [
+    {
+      "activity": "walking, less than 2.0 mph, level, strolling, very slow",
+      "MET": 2
+    },
+    {
+      "activity": "walking for pleasure",
+      "MET": 3.5
+    },
+    {
+      "activity": "Normal 3.0 mph",
+      "MET": 3.68
+    },
+    {
+      "activity": "Fast 3.5 mph",
+      "MET": 4.52
+    },
+    {
+      "activity": "Very fast 4.0 mph",
+      "MET": 5.25
+    },
+    {
+      "activity": "walking, 5.0 mph, level, firm surface",
+      "MET": 8.3
+    }
+  ],
+
+  "running": [
+    {
+      "activity": "running,jogging",
+      "MET": 8
+    },
+
+    {
+      "activity": "running, 6 mph",
+      "MET": 9.8
+    },
+    {
+      "activity": "running, 7 mph",
+      "MET": 11
+    },
+    {
+      "activity": "running, 8 mph",
+      "MET": 11.8
+    },
+    {
+      "activity": "running, 9 mph",
+      "MET": 12.8
+    },
+    {
+      "activity": "running, 10 mph",
+      "MET": 14.5
+    },
+    {
+      "activity": "running, 11 mph",
+      "MET": 16
+    },
+    {
+      "activity": "running, 12 mph",
+      "MET": 19
+    },
+    {
+      "activity": "running, 13 mph",
+      "MET": 19.8
+    },
+    {
+      "activity": "running, 14 mph",
+      "MET": 23
+    },
+    {
+      "activity": "running, marathon",
+      "MET": 13.3
+    },
+    {
+      "activity": "running, stairs, up",
+      "MET": 15
+    }
+  ],
+
+  "bicycling": [
+    {
+      "activity": "bicycling, general",
+      "MET": "7.5"
+    },
+    {
+      "activity": "bicycling,moderate, 14-15.9 mph, racing or leisure, fast, vigorous effort",
+      "MET": "10"
+    },
+    {
+      "activity": "bicycling, 16-19 mph, racing/not drafting or > 19 mph drafting, very fast, racing general",
+      "MET": "12"
+    },
+    {
+      "activity": "bicycling, > 20 mph, racing, not drafting",
+      "MET": "15.8"
+    },
+    {
+      "activity": "bicycling, BMX",
+      "MET": "8.5"
+    }
+  ],
+  "swimming": [
+    {
+      "activity": "swimming, lake, ocean, river",
+      "MET": "6"
+    },
+    {
+      "activity": "swimming, treading water, fast, vigorous effort",
+      "MET": "9.8"
+    }
+  ],
+  "Gym activities": [
+    {
+      "activity": "Aerobics, Step: high impact",
+      "MET": "10"
+    },
+    {
+      "activity": "Aerobics, Step: low impact",
+      "MET": "7"
+    },
+    {
+      "activity": "Aerobics, high impact",
+      "MET": "7"
+    },
+    {
+      "activity": "Aerobics, low impact",
+      "MET": "5.5"
+    },
+    {
+      "activity": "Aerobics, water",
+      "MET": "4"
+    },
+    {
+      "activity": "Calisthenics:moderate",
+      "MET": "4.5"
+    },
+    {
+      "activity": "Calisthenucs Vigorous",
+      "MET": "8"
+    },
+    {
+      "activity": "Circuit training",
+      "MET": "7.75"
+    },
+    {
+      "activity": "Elliptical trainer, moderate effort",
+      "MET": "5"
+    },
+    {
+      "activity": "rowing, stationary, 100 watts, moderate effort",
+      "MET": "7"
+    },
+    {
+      "activity": "rowing, stationary, 150 watts, vigorous effort",
+      "MET": "8.5"
+    },
+    {
+      "activity": "rowing, stationary, 200 watts, very vigorous effort",
+      "MET": "12"
+    },
+    {
+      "activity": "ski machine, general",
+      "MET": "6.8"
+    },
+    {
+      "activity": "stair-treadmill ergometer, general",
+      "MET": "9"
+    },
+    {
+      "activity": "yoga, Hatha",
+      "MET": "2.5"
+    },
+    {
+      "activity": "yoga, Power",
+      "MET": "4"
+    },
+    {
+      "activity": "yoga, Nadisodhana",
+      "MET": "2"
+    },
+    {
+      "activity": "yoga, Surya Namaskar",
+      "MET": "3.3"
+    }
+  ],
+  "Dancing": [
+    {
+      "activity": "Aerobics, Step: high impact",
+      "MET": "10"
+    },
+    {
+      "activity": "Aerobics, Step: low impact",
+      "MET": "7"
+    },
+    {
+      "activity": "Aerobics, high impact",
+      "MET": "7"
+    },
+    {
+      "activity": "Aerobics, low impact",
+      "MET": "5.5"
+    },
+    {
+      "activity": "ballet, modern, or jazz, general, rehearsal or class",
+      "MET": "5"
+    },
+    {
+      "activity": "ballet, modern, or jazz, performance, vigorous effort",
+      "MET": "6.8"
+    },
+    {
+      "activity": "tap",
+      "MET": "4.8"
+    },
+    {
+      "activity": "ballroom, fast",
+      "MET": "5.5"
+    },
+    {
+      "activity": "general dancing (e.g., disco, folk, Irish step dancing, line dancing, polka, contra, country)",
+      "MET": "7.8"
+    }
+  ],
+  "Sports": [
+    {
+      "activity": "badminton, competitive",
+      "MET": "7"
+    },
+    {
+      "activity": "badminton, social singles and doubles, general",
+      "MET": "5.5"
+    },
+    {
+      "activity": "basketball, game",
+      "MET": "8"
+    },
+    {
+      "activity": "basketball, general",
+      "MET": "6.5"
+    },
+    {
+      "activity": "basketball, drills, practice",
+      "MET": "9.3"
+    },
+    {
+      "activity": "billiards",
+      "MET": "2.5"
+    },
+    {
+      "activity": "bowling",
+      "MET": "3"
+    },
+    {
+      "activity": "boxing, in ring, general",
+      "MET": "12.8"
+    },
+    {
+      "activity": "boxing, punching bag",
+      "MET": "5.5"
+    },
+    {
+      "activity": "boxing, sparring",
+      "MET": "7.8"
+    },
+    {
+      "activity": "cricket, batting, bowling, fielding",
+      "MET": "4.8"
+    },
+    {
+      "activity": "football, competitive",
+      "MET": "8"
+    },
+    {
+      "activity": "football, touch, flag, general",
+      "MET": "8"
+    },
+    {
+      "activity": "football, touch, flag, light effort",
+      "MET": "4"
+    },
+    {
+      "activity": "football or baseball, playing catch",
+      "MET": "2.5"
+    },
+    {
+      "activity": "frisbee playing, general",
+      "MET": "3"
+    },
+    {
+      "activity": "golf, general",
+      "MET": "4.8"
+    },
+    {
+      "activity": "handball, general",
+      "MET": "12"
+    },
+    {
+      "activity": "hockey, ice, general",
+      "MET": "8"
+    },
+    {
+      "activity": "martial arts, different types, moderate pace",
+      "MET": "10.3"
+    },
+    {
+      "activity": "racquetball, general",
+      "MET": "7"
+    },
+    {
+      "activity": "rock or mountain climbing",
+      "MET": "8"
+    },
+    {
+      "activity": "rope jumping, fast pace, 120-160",
+      "MET": "12.3"
+    },
+    {
+      "activity": "rope jumping, moderate pace, 100-120 skips/min, general, 2 foot skip, plain bounce",
+      "MET": "11.8"
+    },
+    {
+      "activity": "rope jumping, slow pace, < 100 skips/min, 2 foot skip, rhythm bounce",
+      "MET": "8.8"
+    },
+    {
+      "activity": "rugby, union, team, competitive",
+      "MET": "8.3"
+    },
+    {
+      "activity": "skateboarding, general, moderate effort",
+      "MET": "5"
+    },
+    {
+      "activity": "soccer, casual, general",
+      "MET": "7"
+    },
+    {
+      "activity": "soccer, competitive",
+      "MET": "10"
+    },
+    {
+      "activity": "table tennis, ping pong",
+      "MET": "4"
+    },
+    {
+      "activity": "tennis, general",
+      "MET": "7.3"
+    },
+    {
+      "activity": "tennis, doubles",
+      "MET": "6"
+    },
+    {
+      "activity": "tennis, singles",
+      "MET": "8"
+    },
+    {
+      "activity": "volleyball",
+      "MET": "4"
+    },
+    {
+      "activity": "volleyball, competitive, in gymnasium",
+      "MET": "6"
+    }
+  ]
+}
