@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import metdata from "../METCalorieData/METCalorieData";
 import CalorieResultShow from "../CalorieResultShow/CalorieResultShow";
+import SliderView from '../CalorieResultShow/SliderView';
+import "./calorieBurnCalculate.css";
 
 const CalorieBurnCalculate = () => {
     const [metData, setMetData] = useState({})
@@ -127,22 +129,33 @@ const CalorieBurnCalculate = () => {
     }
   
     return (
-        <div>
-            calorie calculate
-            <div>
-                <label className="calorie">calorie</label>
-                <input type="text" className="calorie-input" onChange={(e) =>{setCalorie(e.target.value)}} />
-            </div>    
-            <div>
-                <label className="weight">Weight</label>
-                <input type="text" className="weight-input"  onChange={(e) =>{setWeight(e.target.value)}}/>
-                
+        <div className='calorie-calculate-wrapper'>
+            <div className="calorie-form-wrapper">
+                calorie calculate
+                <div className="form-group">                
+                    <div>
+                        <input type="text" className="form-field" id='calorie' placeholder='Calorie'
+                            onChange={(e) => { setCalorie(e.target.value) }} />
+                        <label htmlFor='calorie' className="form-label" >calorie (kcal)</label>
+                    </div>    
+                    <div>
+                        <input type="text" className="form-field2" id='weight'
+                            onChange={(e) => { setWeight(e.target.value) }} />
+                        <label className="form-label2" htmlFor='weight'>weight (k.g.)</label>
+                        
+                    </div>
+                    <div className="submit">
+                        <button type="submit" className='form-submit' onClick={calculateCalorie}>submit</button>
+                    </div>
+                </div>
             </div>
-            <div className="submit">
-                <button type="submit" onClick={calculateCalorie}>submit</button>
-            </div>
-            <CalorieResultShow walkdatacomb={walkdatacomb} rundatacomb={rundatacomb} bicyclingdatacomb={bicyclingdatacomb} swimdatacomb={swimdatacomb} gymdatacomb={gymdatacomb}
+            <div>
+                {/* <CalorieResultShow walkdatacomb={walkdatacomb} rundatacomb={rundatacomb} bicyclingdatacomb={bicyclingdatacomb} swimdatacomb={swimdatacomb} gymdatacomb={gymdatacomb}
+                dancedatacomb={dancedatacomb} sportdatacomb={ sportdatacomb}/> */}
+                <SliderView walkdatacomb={walkdatacomb} rundatacomb={rundatacomb} bicyclingdatacomb={bicyclingdatacomb}
+                    swimdatacomb={swimdatacomb} gymdatacomb={gymdatacomb}
                 dancedatacomb={dancedatacomb} sportdatacomb={ sportdatacomb}/>
+            </div>
         </div>
     )
 }
