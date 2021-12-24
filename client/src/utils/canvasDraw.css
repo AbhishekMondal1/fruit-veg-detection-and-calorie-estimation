@@ -1,0 +1,9 @@
+.canvas-draw {
+  width: 100px;
+  visibility: hidden;
+}
+
+.canvas-img {
+  /* width: 700px; */
+  border-radius: 40px;
+}
