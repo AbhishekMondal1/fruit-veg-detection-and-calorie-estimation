@@ -6,15 +6,22 @@
 body {
   width: 100%;
   height: 100vh;
-  background: url('./5.jpg') no-repeat;
+  background: url('./14.jpg') no-repeat;
   font-family: 'agency fb';
   background-position: 50%;
   background-size: 533px;
-  overflow: hidden;  
+  overflow-x: hidden;
+  /* overflow: hidden;   */
 }
 
 .hero-image{
 
+}
+
+.wrapper{
+  /* background: #494949; */
+  z-index: -10005;
+  color: rgb(183, 0, 255);
 }
 
 ul {
@@ -62,6 +69,8 @@ ul {
   width: 100%;
 }
 
+.menu-links ul li a {
+  color: #070f18 ;}
 .menu-links ul li {
   padding: 10px;
   color: #494949;
