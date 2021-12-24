@@ -173,7 +173,7 @@ const CalorieResultShow = ({
               <i className="bx bxs-flame"></i>
             </div>
             <div className="info">
-              <div className="main">GYM DATA</div>
+              <div className="main">DANCING DATA</div>
               <div className="sub">
                 {" "}
                 {dancedatacomb.map((w) => {
@@ -202,7 +202,7 @@ const CalorieResultShow = ({
               <i className="bx bxs-flame"></i>
             </div>
             <div className="info">
-              <div className="main">GYM DATA</div>
+              <div className="main">SPORTS DATA</div>
               <div className="sub">
                 {" "}
                 {sportdatacomb.map((w) => {

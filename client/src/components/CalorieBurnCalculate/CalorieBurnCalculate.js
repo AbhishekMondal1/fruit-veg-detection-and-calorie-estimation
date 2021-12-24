@@ -26,7 +26,7 @@ const CalorieBurnCalculate = () => {
     const [sportdatacomb, setSportdatacomb] = useState([]);
 
     const [change, setChange] = useState(false);
-            
+
     useEffect(() => { 
         setMetData(metdata);
         if (metData) {
@@ -150,11 +150,11 @@ const CalorieBurnCalculate = () => {
                 </div>
             </div>
             <div>
-                {/* <CalorieResultShow walkdatacomb={walkdatacomb} rundatacomb={rundatacomb} bicyclingdatacomb={bicyclingdatacomb} swimdatacomb={swimdatacomb} gymdatacomb={gymdatacomb}
-                dancedatacomb={dancedatacomb} sportdatacomb={ sportdatacomb}/> */}
-                <SliderView walkdatacomb={walkdatacomb} rundatacomb={rundatacomb} bicyclingdatacomb={bicyclingdatacomb}
-                    swimdatacomb={swimdatacomb} gymdatacomb={gymdatacomb}
+                <CalorieResultShow walkdatacomb={walkdatacomb} rundatacomb={rundatacomb} bicyclingdatacomb={bicyclingdatacomb} swimdatacomb={swimdatacomb} gymdatacomb={gymdatacomb}
                 dancedatacomb={dancedatacomb} sportdatacomb={ sportdatacomb}/>
+                {/* <SliderView walkdatacomb={walkdatacomb} rundatacomb={rundatacomb} bicyclingdatacomb={bicyclingdatacomb}
+                    swimdatacomb={swimdatacomb} gymdatacomb={gymdatacomb}
+                dancedatacomb={dancedatacomb} sportdatacomb={ sportdatacomb}/> */}
             </div>
         </div>
     )
