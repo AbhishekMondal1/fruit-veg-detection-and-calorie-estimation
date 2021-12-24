@@ -19,7 +19,7 @@ span.one {
      position: absolute;
      width: 40px;
      height: 2px;
-     background: #fff;
+     background: orangered;
      /* z-index: 101; */
 }
 
@@ -27,7 +27,7 @@ span.two {
      position: absolute;
      width: 40px;
      height: 2px;
-     background: #fff;
+     background: orangered;
      margin-top: 12px;
 }
 
