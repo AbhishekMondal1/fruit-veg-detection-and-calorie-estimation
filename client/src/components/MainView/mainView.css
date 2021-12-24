@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
 .image-preview{
     width: 10vw;
     border: solid black 1px ;
@@ -8,4 +10,73 @@
 canvas{
     /* width: 800px;
     height: 533px; */
+}
+
+.primary-feed{
+    font-family: Poppins;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 25%;
+    left: -5%;
+}
+
+.upload-image-form{
+    left: 15%;
+    position: absolute;
+}
+.select-file{
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    width: 350px;
+    outline: none;
+    height: 30px;
+}
+
+::-webkit-file-upload-button{
+    color: #fff;
+    background: #eb4559;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px #6b4559;
+    outline: none;
+    height: 30px;
+}
+
+::-webkit-file-upload-button:hover{
+    background: #438a5e;
+}
+
+
+.submit-image {
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  left: 110%;
+}
+
+
+.submit-image {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #70bcf3 0%, #0396FF 100%);
+    box-shadow: 0 20px 30px -6px rgba(30, 161, 255, 0.5);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+      left: 110%;
+}
+
+.submit-image:hover {
+  transform: translatey(5px);
+  box-shadow: none;
+  left: 20px;  left: 110%;
+}
+
+.submit-image:active {
+    opacity: 0.7;  left: 110%;
+    transform: scale(1.1);
 }

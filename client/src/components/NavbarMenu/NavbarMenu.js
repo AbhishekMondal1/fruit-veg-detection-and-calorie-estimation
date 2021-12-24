@@ -5,7 +5,6 @@ import "./navbarMenu.css";
 import LandingPage from "../LandingPage/LandingPage";
 import CalorieBurnCalculate from "../CalorieBurnCalculate/CalorieBurnCalculate";
 import MainView from "../MainView/MainView";
-import Test from "../MainView/Test";
 
 const NavbarMenu = () => {
   const link = useRef(null);
@@ -30,10 +29,10 @@ const NavbarMenu = () => {
     });
 
     t1.to(".menu", {
-      duration: 2,
+      duration: 1,
       top: "0%",
       ease: "Expo.easeInOut",
-      delay: -2,
+      delay: -1,
     });
 
     t1.staggerFrom(
@@ -112,7 +111,7 @@ const NavbarMenu = () => {
       </div>
 
       <Routes>
-        <Route path="/detect" element={<MainView />}/>
+        <Route path="/detect" element={<MainView/>}/>
         <Route path="/" element={
           <LandingPage />
           } />

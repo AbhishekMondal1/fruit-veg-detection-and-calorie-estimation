@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 0;
+}
+
 body{
     /* background-image:#ff0000;background-image:  
 radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0, transparent 50%),  
@@ -16,17 +22,29 @@ radial-gradient(at 98% 37%, hsla(212,94%,73%,1) 0, transparent 42%),
 radial-gradient(at 49% 66%, hsla(89,75%,73%,1) 0, transparent 42%),  
 radial-gradient(at 59% 44%, hsla(204,82%,66%,1) 0, transparent 40%),  
 radial-gradient(at 69% 0%, hsla(351,79%,74%,1) 0, transparent 55%); */
-
-background-image:#99eeff;background-image:  
+/* background-image:#99eeff;background-image:  
 radial-gradient(at 53% 1%, hsla(2,91%,78%,1) 0, transparent 57%),  
 radial-gradient(at 19% 73%, hsla(265,88%,62%,1) 0, transparent 51%),  
 radial-gradient(at 56% 2%, hsla(183,62%,64%,1) 0, transparent 55%),  
 radial-gradient(at 28% 84%, hsla(217,60%,61%,1) 0, transparent 50%),  
 radial-gradient(at 69% 89%, hsla(237,75%,63%,1) 0, transparent 52%),  
 radial-gradient(at 36% 31%, hsla(172,78%,73%,1) 0, transparent 41%),  
-radial-gradient(at 43% 24%, hsla(219,64%,76%,1) 0, transparent 57%);
+radial-gradient(at 43% 24%, hsla(219,64%,76%,1) 0, transparent 57%); */
+/* background: #17141d; */
+/* background: rgb(255, 54, 54); */
+background: rgb(rgb(253, 246, 246), green, blue);
 background-attachment: fixed;
 background-position: center center;
 background-size: cover;
 
 }
+/* 
+.landing{
+  background: url('./components/LandingPage/5.jpg') no-repeat;
+  
+  background: #656565 no-repeat;
+  background-position: 50%;
+  background-size: 533px;
+  overflow: hidden;  
+
+} */
