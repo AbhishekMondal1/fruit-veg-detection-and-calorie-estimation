@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import metdata from "../METCalorieData/METCalorieData";
 import CalorieResultShow from "../CalorieResultShow/CalorieResultShow";
-import SliderView from '../CalorieResultShow/SliderView';
 import "./calorieBurnCalculate.css";
 
 const CalorieBurnCalculate = () => {
@@ -152,9 +151,6 @@ const CalorieBurnCalculate = () => {
             <div>
                 <CalorieResultShow walkdatacomb={walkdatacomb} rundatacomb={rundatacomb} bicyclingdatacomb={bicyclingdatacomb} swimdatacomb={swimdatacomb} gymdatacomb={gymdatacomb}
                 dancedatacomb={dancedatacomb} sportdatacomb={ sportdatacomb}/>
-                {/* <SliderView walkdatacomb={walkdatacomb} rundatacomb={rundatacomb} bicyclingdatacomb={bicyclingdatacomb}
-                    swimdatacomb={swimdatacomb} gymdatacomb={gymdatacomb}
-                dancedatacomb={dancedatacomb} sportdatacomb={ sportdatacomb}/> */}
             </div>
         </div>
     )
