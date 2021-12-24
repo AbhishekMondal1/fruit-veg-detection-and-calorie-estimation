@@ -1,11 +1,10 @@
-import './App.css';
-import MainView from './components/MainView/MainView';
+import "./App.css";
+import NavbarMenu from "./components/NavbarMenu/NavbarMenu";
 
 function App() {
   return (
     <div className="App">
-      Fruit Vegetable detection and Calorie estimation
-       <MainView/>
+      <NavbarMenu/>      
     </div>
   );
 }
