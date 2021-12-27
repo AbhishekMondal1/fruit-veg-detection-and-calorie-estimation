@@ -107,6 +107,8 @@
   transition-delay: 0.1s;
   font-size: 1rem;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
 }
 
  .options .option:nth-child(1) {
@@ -126,6 +128,9 @@
 }
  .options .option:nth-child(6) {
   --defaultBackground:#AC92EC;
+}
+ .options .option:nth-child(7) {
+  --defaultBackground:#13b979;
 }
 
 @media screen and (max-width: 718px) {

@@ -25,10 +25,10 @@ const CalorieResultShow = ({
         >
           <div className="label">
             <div className="icon">
-              <i className="bx bxs-cookie"></i>
+              <i class="bx bx-walk"></i>
             </div>
             <div className="info">
-              <div className="main">WALKDATA</div>
+              <div className="main">Walking Activity</div>
               <div className="sub">
                 {walkdatacomb.map((w) => {
                   return (
@@ -54,10 +54,10 @@ const CalorieResultShow = ({
         >
           <div className="label">
             <div className="icon">
-              <i className="bx bxs-badge-dollar"></i>
+              <i class="bx bx-run"></i>
             </div>
             <div className="info">
-              <div className="main">RUNDATA</div>
+              <div className="main">Running Activity</div>
               <div className="sub">
                 {rundatacomb.map((w) => {
                   return (
@@ -83,10 +83,10 @@ const CalorieResultShow = ({
         >
           <div className="label">
             <div className="icon">
-              <i className="bx bxs-heart-circle"></i>
+              <i class="bx bx-cycling"></i>
             </div>
             <div className="info">
-              <div className="main">BICYCLE DATA</div>
+              <div className="main">Cycling Activity</div>
               <div className="sub">
                 {bicyclingdatacomb.map((w) => {
                   return (
@@ -112,10 +112,10 @@ const CalorieResultShow = ({
         >
           <div className="label">
             <div className="icon">
-              <i className="bx bxs-coffee-alt"></i>
+              <i class="bx bx-swim"></i>
             </div>
             <div className="info">
-              <div className="main">SWIMDATA</div>
+              <div className="main">Swimming Activity</div>
               <div className="sub">
                 {swimdatacomb.map((w) => {
                   return (
@@ -141,10 +141,10 @@ const CalorieResultShow = ({
         >
           <div className="label">
             <div className="icon">
-              <i className="bx bxs-flame"></i>
+              <i class="bx bx-dumbbell"></i>
             </div>
             <div className="info">
-              <div className="main">GYM DATA</div>
+              <div className="main">Gym Activity</div>
               <div className="sub">
                 {" "}
                 {gymdatacomb.map((w) => {
@@ -170,10 +170,10 @@ const CalorieResultShow = ({
         >
           <div className="label">
             <div className="icon">
-              <i className="bx bxs-flame"></i>
+              <i class="bx bxs-music"></i>
             </div>
             <div className="info">
-              <div className="main">DANCING DATA</div>
+              <div className="main">Dancing Activity</div>
               <div className="sub">
                 {" "}
                 {dancedatacomb.map((w) => {
@@ -199,10 +199,10 @@ const CalorieResultShow = ({
         >
           <div className="label">
             <div className="icon">
-              <i className="bx bxs-flame"></i>
+              <i class="bx bx-basketball"></i>
             </div>
             <div className="info">
-              <div className="main">SPORTS DATA</div>
+              <div className="main">Sports Activity</div>
               <div className="sub">
                 {" "}
                 {sportdatacomb.map((w) => {

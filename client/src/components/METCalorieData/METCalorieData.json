@@ -1,7 +1,7 @@
 {
   "walking": [
     {
-      "activity": "walking, less than 2.0 mph, level, strolling, very slow",
+      "activity": "walking, less than 2.0 mph, very slow",
       "MET": 2
     },
     {
@@ -84,11 +84,11 @@
       "MET": "7.5"
     },
     {
-      "activity": "bicycling,moderate, 14-15.9 mph, racing or leisure, fast, vigorous effort",
+      "activity": "bicycling, moderate, 14-15.9 mph, fast",
       "MET": "10"
     },
     {
-      "activity": "bicycling, 16-19 mph, racing/not drafting or > 19 mph drafting, very fast, racing general",
+      "activity": "bicycling, 16-19 mph, very fast, racing general",
       "MET": "12"
     },
     {
@@ -106,7 +106,7 @@
       "MET": "6"
     },
     {
-      "activity": "swimming, treading water, fast, vigorous effort",
+      "activity": "swimming, treading water, fast",
       "MET": "9.8"
     }
   ],
@@ -202,11 +202,11 @@
       "MET": "5.5"
     },
     {
-      "activity": "ballet, modern, or jazz, general, rehearsal or class",
+      "activity": "ballet, modern, or jazz, general, rehearsal",
       "MET": "5"
     },
     {
-      "activity": "ballet, modern, or jazz, performance, vigorous effort",
+      "activity": "ballet, modern, or jazz, performance",
       "MET": "6.8"
     },
     {
@@ -218,7 +218,7 @@
       "MET": "5.5"
     },
     {
-      "activity": "general dancing (e.g., disco, folk, Irish step dancing, line dancing, polka, contra, country)",
+      "activity": "general dancing (disco, folk, polka, country)",
       "MET": "7.8"
     }
   ],
@@ -228,20 +228,8 @@
       "MET": "7"
     },
     {
-      "activity": "badminton, social singles and doubles, general",
-      "MET": "5.5"
-    },
-    {
       "activity": "basketball, game",
       "MET": "8"
-    },
-    {
-      "activity": "basketball, general",
-      "MET": "6.5"
-    },
-    {
-      "activity": "basketball, drills, practice",
-      "MET": "9.3"
     },
     {
       "activity": "billiards",
@@ -260,10 +248,6 @@
       "MET": "5.5"
     },
     {
-      "activity": "boxing, sparring",
-      "MET": "7.8"
-    },
-    {
       "activity": "cricket, batting, bowling, fielding",
       "MET": "4.8"
     },
@@ -272,20 +256,8 @@
       "MET": "8"
     },
     {
-      "activity": "football, touch, flag, general",
-      "MET": "8"
-    },
-    {
-      "activity": "football, touch, flag, light effort",
-      "MET": "4"
-    },
-    {
       "activity": "football or baseball, playing catch",
       "MET": "2.5"
-    },
-    {
-      "activity": "frisbee playing, general",
-      "MET": "3"
     },
     {
       "activity": "golf, general",
@@ -296,16 +268,8 @@
       "MET": "12"
     },
     {
-      "activity": "hockey, ice, general",
-      "MET": "8"
-    },
-    {
       "activity": "martial arts, different types, moderate pace",
       "MET": "10.3"
-    },
-    {
-      "activity": "racquetball, general",
-      "MET": "7"
     },
     {
       "activity": "rock or mountain climbing",
@@ -316,11 +280,7 @@
       "MET": "12.3"
     },
     {
-      "activity": "rope jumping, moderate pace, 100-120 skips/min, general, 2 foot skip, plain bounce",
-      "MET": "11.8"
-    },
-    {
-      "activity": "rope jumping, slow pace, < 100 skips/min, 2 foot skip, rhythm bounce",
+      "activity": "rope jumping, slow pace",
       "MET": "8.8"
     },
     {
@@ -350,10 +310,6 @@
     {
       "activity": "tennis, doubles",
       "MET": "6"
-    },
-    {
-      "activity": "tennis, singles",
-      "MET": "8"
     },
     {
       "activity": "volleyball",
