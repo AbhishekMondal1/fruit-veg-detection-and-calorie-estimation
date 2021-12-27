@@ -19,11 +19,31 @@ const Nutrition = ({ predictionData }) => {
   const [nutritionValue, setNutritionValue] = useState([]);
   const [fruitNames, setFruitNames] = useState([]);
   const [fruitQuery, setFruitQuery] = useState({});
-  const CALORIENINJA_API = process.env.REACT_APP_CALORIENINJA_API;
-  const CALORIENINJA_API_KEY = process.env.REACT_APP_CALORIENINJA_API_KEY;
+  const [CALORIENINJA_API, setCALORIENINJA_API] = useState("");
+  const [CALORIENINJA_API_KEY, setCALORIENINJA_API_KEY] = useState("");
 
   console.table(predictionData);
-
+  // get api keys
+useEffect(() => {
+  async function getCNApi() {
+    try {
+      const res = await axios.get("http://localhost:8080/api/cna");
+      setCALORIENINJA_API(res.data.value);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  async function getCNKey() {
+    try {
+      const res = await axios.get("http://localhost:8080/api/cnakey");
+      setCALORIENINJA_API_KEY(res.data.value);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+  getCNApi();
+  getCNKey();
+}, []);
   // get fruit, veg names
   useEffect(() => {
     const getFruitNames = async () => {

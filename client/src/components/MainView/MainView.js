@@ -7,11 +7,11 @@ import ProgressBar from "../ProgressBar/ProgressBar";
 import CanvasDraw from "../../utils/CanvasDraw";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlay, faBook, faImage, faChevronCircleLeft, faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
+import { faPlay, faBook, faImage, faChevronCircleLeft,   faChevronCircleRight, } from "@fortawesome/free-solid-svg-icons";
 
 const Upload = () => {
-  const CUSTOM_VISION_API = process.env.REACT_APP_CUSTOM_VISION_API;
-  const CUSTOM_VISION_PREDICTION_KEY = process.env.REACT_APP_CUSTOM_VISION_PREDICTION_KEY;
+  const [CUSTOM_VISION_API, setCUSTOM_VISION_API] = useState("");
+  const [CUSTOM_VISION_PREDICTION_KEY, setCUSTOM_VISION_PREDICTION_KEY] = useState("");
   const [image, setImage] = useState("");
   const [predictionData, setPredictionData] = useState([]);
   const [imageUrl, setImageUrl] = useState("");
@@ -19,7 +19,27 @@ const Upload = () => {
   const [progressPercent, setProgressPercent] = useState(100);
 
   const imgRef = useRef(null);
- 
+  // get api keys
+  useEffect(() => {
+    async function getCVApi() {
+      try {
+        const res = await axios.get("http://localhost:8080/api/cva");
+        setCUSTOM_VISION_API(res.data.value);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    async function getCVKey() {
+      try {
+        const res = await axios.get("http://localhost:8080/api/cvpk");
+        setCUSTOM_VISION_PREDICTION_KEY(res.data.value);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    getCVKey();
+    getCVApi();
+  }, []);
   // update image section
   useEffect(() => {
     async function drawImage() {
@@ -76,14 +96,15 @@ const Upload = () => {
       console.table(predcdata);
       setPredictionData(predcdata);
       setLoading(false);
-      setImage("")
-      setImageUrl("")
+      setImage("");
+      setImageUrl("");
     } catch (err) {
       console.log(err);
     }
   };
   return (
-    <div><br />
+    <div>
+      <br />
       <form onSubmit={uploadFile} className="upload-image-form">
         <input
           className="select-file"
@@ -115,10 +136,10 @@ const Upload = () => {
         <div className="primary-feed">
           {predictionData ? (
             <CanvasDraw predictionData={predictionData} imageUrl={imageUrl} />
-            ) : (
-              ""
-              )}
-              {predictionData ? <Nutrition predictionData={predictionData} /> : ""}
+          ) : (
+            ""
+          )}
+          {predictionData ? <Nutrition predictionData={predictionData} /> : ""}
         </div>
       }
     </div>
