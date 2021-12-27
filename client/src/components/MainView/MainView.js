@@ -23,7 +23,7 @@ const Upload = () => {
   useEffect(() => {
     async function getCVApi() {
       try {
-        const res = await axios.get("http://localhost:8080/api/cva");
+        const res = await axios.get("https://fruit-detector-calorie-estimator.azurewebsites.net/api/cva");
         setCUSTOM_VISION_API(res.data.value);
       } catch (error) {
         console.log(error);
@@ -31,7 +31,7 @@ const Upload = () => {
     }
     async function getCVKey() {
       try {
-        const res = await axios.get("http://localhost:8080/api/cvpk");
+        const res = await axios.get("https://fruit-detector-calorie-estimator.azurewebsites.net/api/cvpk");
         setCUSTOM_VISION_PREDICTION_KEY(res.data.value);
       } catch (error) {
         console.log(error);

@@ -27,7 +27,7 @@ const Nutrition = ({ predictionData }) => {
 useEffect(() => {
   async function getCNApi() {
     try {
-      const res = await axios.get("http://localhost:8080/api/cna");
+      const res = await axios.get("https://fruit-detector-calorie-estimator.azurewebsites.net/api/cna");
       setCALORIENINJA_API(res.data.value);
     } catch (error) {
       console.log(error);
@@ -35,7 +35,7 @@ useEffect(() => {
   }
   async function getCNKey() {
     try {
-      const res = await axios.get("http://localhost:8080/api/cnakey");
+      const res = await axios.get("https://fruit-detector-calorie-estimator.azurewebsites.net/api/cnakey");
       setCALORIENINJA_API_KEY(res.data.value);
     } catch (error) {
       console.log(error);

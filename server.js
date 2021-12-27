@@ -3,15 +3,15 @@ const { SecretClient } = require("@azure/keyvault-secrets");
 const app = require("express")();
 const express = require("express");
 const path = require("path");
-const cors = require("cors");
-var corsOptions = {
-  origin: "http://localhost:8080",
-  optionsSuccessStatus: 200, 
-};
-app.use(cors(corsOptions));
+// const cors = require("cors");
+// var corsOptions = {
+//   origin: "http://localhost:8080",
+//   optionsSuccessStatus: 200, 
+// };
+// app.use(cors(corsOptions));
 
 const port = 8080;
-const keyVaultName = "the-matrix-kv";
+const keyVaultName = "fruit-detector-kv";
 const KVUri = "https://" + keyVaultName + ".vault.azure.net";
 
 const credential = new DefaultAzureCredential();

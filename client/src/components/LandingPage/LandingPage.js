@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom"
 import { gsap } from "gsap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlay, faBook, faImage, } from "@fortawesome/free-solid-svg-icons";
+import { faPlay, faBook, faImage, faHome, faRobot, faBurn } from "@fortawesome/free-solid-svg-icons";
 import "./landingPage.css";
 
 const LandingPage = () => {
@@ -127,11 +127,15 @@ const LandingPage = () => {
         <div className="nav">
           <div className="logo">
             <h1>
-              <span>
-                calorie <br /> estimator
+              <span className="logo-top">
+                calorie <br />
               </span>
+                <div className="logo-bottom">estimator</div>
               <br />
+             <div className="logo-bottom-2">
               fruit detector
+
+             </div>
             </h1>
           </div>
 
@@ -149,13 +153,12 @@ const LandingPage = () => {
               </ul>             
             </div>
 
-          <div className="scrolldown">scroll</div>
         </div>
 
         <div className="text">
           <div className="title">Detect</div>
           <p>
-            Detect the frits, vegetables and estimate their calories <br />{" "}
+            Detect the fruits, vegetables and estimate their calories <br />{" "}
             using Custom Vision AI.
           </p>
         </div>
@@ -172,13 +175,19 @@ const LandingPage = () => {
         <div className="media">
           <ul>
             <li>
-              <FontAwesomeIcon icon={faBook} />
+              <Link to="/">
+              <FontAwesomeIcon icon={faHome} />
+              </Link>
             </li>
             <li>
-              <FontAwesomeIcon icon={faBook} />
+            <Link to="/detect">
+              <FontAwesomeIcon icon={faRobot} />
+              </Link>
             </li>
             <li>
-              <FontAwesomeIcon icon={faImage} />
+            <Link to="/calorie-burn">
+              <FontAwesomeIcon icon={faBurn} />
+              </Link>
             </li>
           </ul>
         </div>

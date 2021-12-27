@@ -1,9 +1,9 @@
 {
-  "name": "fruit veg detection",
+  "name": "sample-node-app",
   "repository": {
-    "url": ""
+    "url": "https://github.com/microsoftdocs/mslearn-deploy-web-apps-slots"
   },
-  "description": "",
+  "description": "Sample Node.js Application",
   "version": "1.0.0",
   "license": "MIT",
   "main": "server.js",
@@ -13,7 +13,6 @@
   "dependencies": {
     "@azure/identity": "^2.0.1",
     "@azure/keyvault-secrets": "^4.3.0",
-    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
