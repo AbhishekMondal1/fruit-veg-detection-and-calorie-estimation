@@ -88,7 +88,8 @@
   flex-direction: column;
   justify-content: center;
   margin-left: 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px #000;
   white-space: pre;
 }
 
@@ -182,9 +183,9 @@
 }
 
 .bg6{
-    background:url('images/img-4.jpg')
+    background:url('images/img-6.jpg')
 }
 
 .bg7{
-    background:url('images/img-5.jpg')
+    background:url('images/img-7.jpg')
 }

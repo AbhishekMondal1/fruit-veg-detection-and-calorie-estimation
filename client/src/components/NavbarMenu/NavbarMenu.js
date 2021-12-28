@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useRef } from "react";
-import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Routes, Link, Route } from "react-router-dom";
 import { gsap } from "gsap";
 import "./navbarMenu.css";
 import LandingPage from "../LandingPage/LandingPage";
@@ -7,7 +7,6 @@ import CalorieBurnCalculate from "../CalorieBurnCalculate/CalorieBurnCalculate";
 import MainView from "../MainView/MainView";
 
 const NavbarMenu = () => {
-  const link = useRef(null);
   const [t1, setT1] = useState(new gsap.timeline({ paused: false }));
   const [toggle, setToggle] = useState(false);
 
@@ -95,16 +94,6 @@ const NavbarMenu = () => {
               >
                 calorie burn counter.
               </Link>
-            </li>
-            <li>
-              <a
-                href="#"
-                onClick={(e) => {
-                  setToggle(!toggle);
-                }}
-              >
-                Contact
-              </a>
             </li>
           </ul>
         </div>
