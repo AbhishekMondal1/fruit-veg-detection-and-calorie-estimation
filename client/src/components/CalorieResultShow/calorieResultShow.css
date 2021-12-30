@@ -37,7 +37,6 @@
 }
 
 .options .option.active {
-  overflow-y: scroll;
   flex-grow: 10000;
   transform: scale(1);
   max-width: 700px;
@@ -45,6 +44,10 @@
   border-radius: 40px;
   background-size: auto 100%;
   border: 5px solid #fff;
+}
+
+.options .option.active.bg7 {
+  overflow-y: scroll;  
 }
 
  .options .option:not(.active) {

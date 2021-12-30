@@ -130,7 +130,7 @@ const CalorieBurnCalculate = () => {
     return (
         <div className='calorie-calculate-wrapper'>
             <div className="calorie-form-wrapper">
-                calorie calculate
+                calorie burning time calculate
                 <div className="form-group">                
                     <div>
                         <input type="text" className="form-field" id='calorie' placeholder='Calorie'
